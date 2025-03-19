@@ -13,3 +13,15 @@
 </div>
     </div>
     
+
+    <div class="card">
+  <div class="fruits__img">
+    <img src="resources/views/img/fruits-img/banana.png" alt="バナナ">
+  </div>
+  <div class="card__content">
+    <h2 class="card__content-ttl">
+      今日の朝ごはんは卵と肉を合わせたバランスの良いメニューです。
+    </h2>
+</div>
+
+<img src="/fruits-img/grapes.png" alt="ブドウ">
