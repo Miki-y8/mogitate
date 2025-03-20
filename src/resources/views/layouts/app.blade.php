@@ -19,6 +19,7 @@
   <div class="app">
   <div class="content">
     @yield('contents')
+    @yield('goods')
     </div>
   </div>
 </body>

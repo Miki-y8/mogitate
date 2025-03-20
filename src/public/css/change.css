@@ -1,0 +1,70 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-form__btn {
+    padding: 8px 32px;
+    border: none;
+    background-color: #ef8025;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.products__search__btn {
+    padding: 8px 32px;
+    border: none;
+    background-color: yellow;
+    color: #000;
+    font-size: 16px;
+}
+
+.seach-sort__group {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 2fr;
+
+
+}
+
+.seach {
+    display: grid;
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+
+.goods {
+    display: grid;
+
+    grid-column: 2/3;
+
+}
+
+
+
+.card {
+    width: 414px;
+    height: 760;
+    top: -20px;
+    left: -20px;
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 0 0 6px;
+}
+
+.fruits__img img {
+    width: 100%;
+}
+
+.card__content {
+    padding: 15px 25px;
+}
+
+.card__content-ttl {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
