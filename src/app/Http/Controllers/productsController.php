@@ -10,4 +10,15 @@ public function index()
   {
     return view('products');
   }
+
+  public function store(Request $request)
+  {
+    return view('register');
+  }
+
+
+public function confirm(Request $request)
+{
+   return view('products');
+    }
 }

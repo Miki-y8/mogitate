@@ -1,0 +1,132 @@
+.register-form__inner {
+    margin: 32px auto 0;
+    width: 74%;
+    font-size: 16px;
+}
+
+.register-form__group {
+    display: grid;
+    align-items: center;
+    margin-top: 32px;
+
+    grid-template-columns: 1fr 2fr;
+}
+
+.register-form__group:first-of-type {
+    margin-top: 0;
+}
+
+.register-form__group:last-of-type {
+    align-items: flex-start;
+}
+
+.register-form__required {
+    color: #FF9494;
+}
+
+.register-form__input {
+    padding: 8px 16px;
+    background-color: #FFFFFF;
+    color: #BEB1A6;
+}
+
+.register-form__name-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+
+    gap: 32px;
+}
+
+.register-form__name-input {
+    width: 100%;
+}
+
+.register-form__season-inputs {
+    display: flex;
+    justify-content: left;
+}
+
+.register-form__season-input {
+    position: absolute;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.register-form__season-text {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.register-form__season-text::before {
+    display: block;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    content: '';
+}
+
+.register-form__season-input:checked+.register-form__season-text::before {
+    background: #8B7969;
+}
+
+.register-form__select-inner {
+    position: relative;
+}
+
+.registert-form__select-inner::after {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    width: 0;
+    height: 0;
+    border-top: 12px solid #BEB1A6;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.register-form__select {
+    padding: 8px 16px;
+    width: 50%;
+    background-color: #FFFFFF;
+    color: #BEB1A6;
+}
+
+.register-form__textarea {
+    padding: 8px 16px;
+    height: 144px;
+    background-color: #FFFFFF;
+    color: #BEB1A6;
+}
+
+.register-form__send-btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 32px;
+    border: none;
+    background-color: orange;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.register-form__back-btn {
+    display: flex;
+    justify-content: center;
+    padding: 8px 32px;
+    border: none;
+    background-color: rgb(164, 161, 161);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -7,9 +7,12 @@
 @section('contents')
 <div class="products-header">
   <h2 class="product__heading content__heading">商品一覧</h2>
+  <form class="form" action="/register" method="post">
+    @csrf
   <div class="addition-button">
   <input class="addition-button-submit" type="submit" value="➕商品を追加">
   </div>
+  </form>
 </div>
 
 

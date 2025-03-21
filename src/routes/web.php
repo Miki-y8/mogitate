@@ -15,3 +15,7 @@ use App\Http\Controllers\productsController;
 */
 
 Route::get('/', [productsController::class, 'index']);
+
+Route::post('/products', [productsController::class, 'confirm']);
+
+Route::post('/register', [productsController::class, 'store']);
