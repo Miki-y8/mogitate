@@ -10,9 +10,12 @@
 ## Laravel環境構築
 
 1.docker-compose exec php bash
+
 2.composer install
+
 3.「.env」ファイルを作成
-.envに以下の環境変数を追加
+
+### .envに以下の環境変数を追加
 
 DB_CONNECTION=mysql
 
