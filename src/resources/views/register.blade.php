@@ -16,10 +16,17 @@
                 class="register-form__required">必須
                 </span>
                 </label>
-        <div class="register-form__name-inputs">
-          <input class="register-form__input register-form__name-input" type="text" name="products_name" id="products-name"
-            value="{{ old('product_name') }}" placeholder="商品名を入力">
+            <div class="register-form__name-inputs">
+            <input class="register-form__input register-form__name-input" type="text" name="name" id="name"
+            value="{{ old('name') }}" placeholder="商品名を入力">
             </div>
+            <p class="contact-form__error-message">
+            @error('name')
+            {{ $message }}
+            @enderror
+            </p>
+            </div>
+
             <div class="register-form__group">
                 <label class="register-form__label" for="price">
                 値段<span
@@ -41,7 +48,7 @@
             </select>
             </div>
         <div class="register-form__group">
-        <label class="register-form__label">
+        <label class="register-form__label" for="season">
           季節<span class="register-form__required">必須</span>
         </label>
         <div class="register-form__season-inputs">
