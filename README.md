@@ -2,7 +2,9 @@
 ## Dockerビルド
 
 1.git@github.com:Miki-y8/mogitate.git
+
 2.DockerDesktopアプリを立ち上げる
+
 3.docker-compose up -d --build
 
 ## Laravel環境構築
