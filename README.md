@@ -15,10 +15,15 @@
 .envに以下の環境変数を追加
 
 DB_CONNECTION=mysql
+
 DB_HOST=mysql
+
 DB_PORT=3306
+
 DB_DATABASE=laravel_db
+
 DB_USERNAME=laravel_user
+
 DB_PASSWORD=laravel_pass
 
 ## アプリケーションキーの作成
