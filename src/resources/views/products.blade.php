@@ -37,7 +37,7 @@
 
     <div class="card">
       <div class="card__img">
-      <img src="{{ asset('img/fruits-img/banana.png') }}"alt="バナナ">
+      <img src="{{ asset('img/fruits-img/banana.png')}}"alt="バナナ">
       <div class="card__content">
         <div class="card__content-ttl">  
         <p>バナナ</p>
